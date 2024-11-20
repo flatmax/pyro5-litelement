@@ -16,21 +16,45 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
-# Virtual Environment
+.env
+.venv
 venv/
 ENV/
+
+# Node/npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+.DS_Store
 
-# OS
+# LitElement/Web Components
+**/dist/
+**/build/
+**/*.tsbuildinfo
+.rollup.cache/
+storybook-static/
+
+# Development/Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.cache/
+coverage/
+.nyc_output/
+
+# System Files
 .DS_Store
 Thumbs.db

@@ -1,0 +1,16 @@
+{
+  "name": "pyro5-litelement",
+  "version": "1.0.0",
+  "description": "LitElement interface for Pyro5 remote control",
+  "main": "remote-control.js",
+  "type": "module",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --watch --open"
+  },
+  "dependencies": {
+    "lit": "^2.8.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.3.0"
+  }
+}
